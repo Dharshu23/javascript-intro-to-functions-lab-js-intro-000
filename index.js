@@ -19,5 +19,13 @@ function sayHiToGrandma(string){
   var secondString = "YES INDEED!";
   var thirdString = "I love you, too.";
 
-  if(string.toLowerCase(string) === string)
+  if(string.toLowerCase(string) === string) {
+    return firstString;
+  }
+  else if (string.toUpperCase(string) === string) {
+    return secondString;
+  }
+  else {
+    return thirdString;
+  }
 }
